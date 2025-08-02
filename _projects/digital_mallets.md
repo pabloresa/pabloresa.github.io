@@ -8,6 +8,8 @@ permalink: /mallets/
 
 # Crafting Digital Rhythms: Building a Standalone Wooden Mallet with ESP32 and Integrated Synthesis
 
+![Mallet](/assets/img/mallet/mallet.jpg)
+
 As makers, we are constantly seeking to bridge the gap between physical interaction and digital creativity. My latest conceptual project explores this convergence by envisioning a digital mallet – a beautifully crafted wooden instrument that not only transmits MIDI data but also generates its own sounds internally. This endeavor harnesses the versatile ESP32 microcontroller, leveraging the `HelloDrum-arduino-Library` for precise strike detection and `esp32_basic_synth` for on-board audio generation.
 
 **The Heart of the Mallet: Wood and Wireless Power**
