@@ -2,6 +2,7 @@
 layout: project
 title: "Getting started with ROS2"
 description: "Learning ROS robotic framework"
+image: /assets/img/ros2/ros2_nav.png
 permalink: /ros2/
 ---
 
