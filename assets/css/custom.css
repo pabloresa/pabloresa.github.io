@@ -4,18 +4,26 @@ main img {
   max-width: 50%;
   max-height: 66%;
 }
-/* Wave Animation CSS */
 
 .page-header {
-  padding: 5rem 6rem 0; /* Adjusted padding to make space for waves */
+  padding: 5rem 0 0; /* Remove side padding, only keep top */
+  margin: 0;
+  max-width: none; /* IMPORTANT: Removes the width limit from the theme */
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
+/* 2. Center the content inside the full-width header */
 .inner-header {
-  width:100%;
+  width: 100%;
+  max-width: 64rem; /* Default width for Jekyll themes, keeps content centered */
+  margin: 0 auto;
+  padding: 0 2rem; /* Adds some space so text doesn't touch the edges */
+  text-align: center; /* Ensures content inside is centered */
 }
 
+/* 3. Style the waves (no changes here from before) */
 .waves {
   position: relative;
   width: 100%;
