@@ -8,16 +8,13 @@ title: "Projects"
 Here you have a selection of my projects:
 
 <ul>
-  {% for page in site.pages %}
-    {% if page.title and page.permalink contains '/project_' %}
-      <li>
-        <a href="{{ page.url }}">{{ page.title }}</a><br/>
-        {{ page.description }}
-        {% if page.image %}
-          <img src="{{ page.image }}" alt="{{ page.title }}" width="200">
-        {% endif %}
-      </li>
-    {% endif %}
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url }}">{{ project.title }}</a><br/>
+      {{ project.description }}
+      {% if project.image %}
+        <div><img src="{{ project.image }}" alt="{{ project.title }}" width="300"></div>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>
-
