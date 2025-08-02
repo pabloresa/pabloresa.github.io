@@ -2,6 +2,7 @@
 layout: project
 title: "Digital Mallets"
 description: "Taking mallets into the digital world on a budget"
+image: /assets/img/mallet/mallet.jpg
 permalink: /mallets/
 ---
 
