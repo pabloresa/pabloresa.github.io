@@ -14,7 +14,7 @@ This project, “Cuerpo y mente - Un hecho tangible” (Body and Mind - A Tangib
 
 ![Mindflex](/assets/img/mindflex/mindflex.png)
 
--***CUBE Unit***: Designed as a physical structure, the CUBE integrates capacitive sensors for touchless interaction and an embedded LED lighting system.
+-***CUBE Unit***: Designed as a physical structure, the CUBE integrates capacitive sensors for touchless interaction and an embedded LED lighting system. Note: I used 1 W resistors because a bad order at Aliexpress.
 
 ![Cube](/assets/img/mindflex/cube.png)
 
