@@ -61,3 +61,9 @@ main img {
     transform: translate3d(85px,0,0);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .parallax > use {
+    fill: black; /* Change waves to black in dark mode */
+  }
+}
