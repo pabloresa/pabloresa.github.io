@@ -11,15 +11,17 @@ This project, “Cuerpo y mente - Un hecho tangible” (Body and Mind - A Tangib
 
 -Mindflex Headband: This component is responsible for acquiring brainwave data, specifically measuring levels of relaxation and attention.
 
-![Mindflex](/assets/img/mindflex/mindflex.jpg)
+![Mindflex](/assets/img/mindflex/mindflex.png)
 
 -CUBE Unit: Designed as a physical structure, the CUBO integrates capacitive sensors for touchless interaction and an embedded LED lighting system.
 
-![Cube](/assets/img/mindflex/cube.jpg)
+![Cube](/assets/img/mindflex/cube.png)
 
 -Arduino Pro Micro Boards: Multiple Arduino units are interconnected to manage sensor inputs, process data, and control the LED outputs.
 -Raspberry Pi 3B+: This serves as the primary processing unit for audio synthesis, executing the PureData software environment.
 -Communication Protocols: Bluetooth (HC05 modules) , MIDI , and UART protocols facilitate robust communication across all integrated components.
+
+![All together](/assets/img/mindflex/music_with_your_mind.png)
 
 Operational Modality:
 
