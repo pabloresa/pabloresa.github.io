@@ -2,6 +2,7 @@
 layout: project
 title: "Capacitive touch keyboard"
 description: "Experimenting with isomorphic keyboards and touch devices"
+image: /assets/img/touch/touch.jpg
 permalink: /touch/
 ---
 
