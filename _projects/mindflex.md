@@ -2,6 +2,7 @@
 layout: project
 title: "Controlling music with your mind"
 description: "Fun concept of touchless digital instrument"
+image: /assets/img/mindflex/cube.png
 permalink: /mindflex/
 ---
 
