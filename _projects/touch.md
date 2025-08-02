@@ -8,6 +8,8 @@ permalink: /touch/
 
 ## Crafting Intuitive Interfaces: Building a Touch Isomorphic Instrument with MPR121 and Teensy 3.2
 
+![Touch](/assets/img/touch/touch.jpg)
+
 In my continuous exploration of unconventional musical interfaces, I've embarked on a project to construct a touch-sensitive isomorphic instrument. This endeavor aims to bridge the intuitive consistency of isomorphic keyboard layouts with the immediate responsiveness of capacitive touch sensing, utilizing the MPR121 12-channel capacitive touch sensor and the powerful Teensy 3.2 microcontroller. My inspiration is deeply rooted in the philosophy behind alternative keyboard designs, as extensively documented on resources like https://www.google.com/search?q=AltKeyboards.com, which underscore the pedagogical and performative advantages of isomorphic principles.
 
 ### The Isomorphic Imperative: Redefining Musical Interaction
