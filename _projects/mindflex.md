@@ -1,9 +1,8 @@
 ---
 layout: default
 title: "Controlling music with mind and your hands"
-image: /assets/img/music_with_your_mind.png.jpg
 description: "Fun concept of touchless digital instrument"
-permalink: /project_1/
+permalink: /mindflex/
 ---
 
 # Capactive cube with MindFlex musical instrument
@@ -11,9 +10,9 @@ permalink: /project_1/
 This project, “Cuerpo y mente - Un hecho tangible” (Body and Mind - A Tangible Fact), represents my endeavor to create a novel wireless musical instrument that integrates human bio-signals with interactive sound generation. My objective was to explore advanced forms of musical interaction beyond conventional interfaces, drawing inspiration from non-contact systems such as the Theremin. The conceptual foundation for this instrument emerged from studying the Mattel Mindflex toy, which demonstrated the practical application of EEG brainwave technology for control. Recognizing the accessibility and potential of its EEG sensor , I initiated this project to repurpose such technology for a sophisticated musical application. The resulting instrument is a complex technological integration , centrally featuring a truncated icosahedron, which I refer to as the “CUBO”. The system comprises several key components: 
 
 -Mindflex Headband: This component is responsible for acquiring brainwave data, specifically measuring levels of relaxation and attention.
-![Mindflex](/assets/img/mindflex.jpg)
+![Mindflex](/assets/img/mindflex/mindflex.jpg)
 -CUBE Unit: Designed as a physical structure, the CUBO integrates capacitive sensors for touchless interaction and an embedded LED lighting system.
-![Cube](/assets/img/cube.jpg)
+![Cube](/assets/img/mindflex/cube.jpg)
 -Arduino Pro Micro Boards: Multiple Arduino units are interconnected to manage sensor inputs, process data, and control the LED outputs.
 -Raspberry Pi 3B+: This serves as the primary processing unit for audio synthesis, executing the PureData software environment.
 -Communication Protocols: Bluetooth (HC05 modules) , MIDI , and UART protocols facilitate robust communication across all integrated components.
