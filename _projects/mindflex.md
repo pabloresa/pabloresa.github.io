@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: "Controlling music with mind and your hands"
 description: "Fun concept of touchless digital instrument"
 permalink: /mindflex/
