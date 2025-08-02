@@ -1,0 +1,6 @@
+main img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 66%;
+  height: auto;
+}
