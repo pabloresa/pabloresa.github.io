@@ -8,6 +8,8 @@ permalink: /ros2/
 
 # Developing an Autonomous Guided Vehicle (AGV) with ROS2: A Maker's Journey
 
+![ROS2_NAV](/assets/img/ros2/ros2_nav.png)
+
 My latest project involved the comprehensive design and implementation of an Automated Guided Vehicle (AGV) prototype, primarily intended for internal logistics applications within a corporate environment. [cite_start]This endeavor aimed to create an autonomous robot capable of robust trajectory planning and execution, precise spatial orientation within a confined setting, and intuitive control via a web-based interface. [cite: 1, 4]
 
 The core of this prototype is built upon the iRobot Create 3 mobile robotics platform. To achieve its autonomous capabilities, I integrated several key hardware components:
