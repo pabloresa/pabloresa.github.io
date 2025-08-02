@@ -18,7 +18,9 @@ This project, “Cuerpo y mente - Un hecho tangible” (Body and Mind - A Tangib
 ![Cube](/assets/img/mindflex/cube.png)
 
 -<u>Arduino Pro Micro Boards</u>: Multiple Arduino units are interconnected to manage sensor inputs, process data, and control the LED outputs.
+
 -<u>Raspberry Pi 3B+</u>: This serves as the primary processing unit for audio synthesis, executing the PureData software environment.
+
 -<u>Communication Protocols</u>: Bluetooth (HC05 modules) , MIDI , and UART protocols facilitate robust communication across all integrated components.
 
 ![All together](/assets/img/mindflex/music_with_your_mind.png)
