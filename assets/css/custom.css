@@ -67,11 +67,9 @@ main img {
   background-color: #e5e5f7;
   opacity: 0.8;
   background:
-    radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent),
-    radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px,
-    linear-gradient(#f7d745 2px, transparent 2px) 0 -1px,
-    linear-gradient(90deg, #f7d745 2px, #e5e5f7 2px) -1px 0;
+    radial-gradient(circle, transparent 20%, #084449 20%, #084449 80%, transparent 80%, transparent), 
+    radial-gradient(circle, transparent 20%, #084449 20%, #084449 80%, transparent 80%, transparent) 25px 25px, 
+    linear-gradient(#f7d745 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #f7d745 2px, #084449 2px) -1px 0;
   background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
   z-index: 0;
 }
-
