@@ -64,7 +64,7 @@ main img {
 
 .page-header {
   position: relative;
-    background-color: #084449;
+    background-color: #666666;
     opacity: 0.7;
     background-image:  radial-gradient(#f7d745 2px, transparent 2px), radial-gradient(#f7d745 2px, #084449 2px);
     background-size: 80px 80px;
