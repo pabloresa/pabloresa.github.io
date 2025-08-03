@@ -64,39 +64,14 @@ main img {
 
 .page-header {
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-blend-mode: multiply;
-  transition: background-image 0.5s ease-in-out;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background:
+    radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 25px 25px,
+    linear-gradient(#f7d745 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #f7d745 2px, #e5e5f7 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
   z-index: 0;
-  overflow: hidden;
 }
 
-.page-header::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/assets/svg/bg1.svg');
-  background-repeat: repeat;
-  background-size: 100px auto;
-  background-position: 30px 60px;
-  opacity: 0.2;
-  z-index: -1;
-}
-
-.page-header::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/assets/svg/bg2.svg');
-  background-repeat: repeat;
-  background-size: 140px auto;
-  background-position: 80px 120px;
-  opacity: 0.2;
-  z-index: -1;
-}
