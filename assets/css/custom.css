@@ -62,8 +62,26 @@ main img {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .parallax > use {
-    fill: black; /* Change waves to black in dark mode */
-  }
+.page-header {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+  transition: background-image 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.page-header::before,
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
 }
