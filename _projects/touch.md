@@ -32,6 +32,8 @@ The software running on the Teensy 3.2 is responsible for translating the raw to
 3.  **MIDI Message Generation:** Upon detecting a touch (or release), the Teensy generates standard MIDI Note On/Off messages. While the MPR121 itself does not provide pressure sensitivity, I am exploring methods to infer velocity through parameters like touch duration or rate of capacitance change, adding a crucial layer of expressiveness to the output.
 4.  **USB MIDI Transmission:** Leveraging the Teensy's built-in USB MIDI, these messages are sent directly to a connected computer or MIDI host, allowing the instrument to control virtual instruments, hardware synthesizers, or even lighting systems.
 
+You can chek the code [here](https://github.com/pabloresa/ArduinoMIDIDevices/blob/main/Teensy_MPR212_NuevoTactil.ino).
+
 ### Physical Realization: From Concept to Tangible Form
 
 The physical construction of the instrument is as critical as its electronic core. I envision a sleek, durable enclosure, potentially crafted from laser-cut acrylic or meticulously milled wood, providing both protection and an ergonomic interface. The touch plates themselves could be fashioned from conductive materials such as copper tape, conductive paint applied to a non-conductive substrate, or even custom-designed PCBs for a professional finish. An overlaid clear acrylic panel would serve to protect the conductive elements while allowing for visual labeling of the isomorphic layout. The iterative process of prototyping various layouts and enclosure designs is essential to optimize playability and aesthetic appeal.
