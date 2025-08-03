@@ -70,17 +70,33 @@ main img {
   background-blend-mode: multiply;
   transition: background-image 0.5s ease-in-out;
   z-index: 0;
+  overflow: hidden;
 }
 
-.page-header::before,
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/svg/bg1.svg');
+  background-repeat: repeat;
+  background-size: 100px auto;
+  background-position: 30px 60px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
 .page-header::after {
   content: "";
   position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
+  background-image: url('/assets/svg/bg2.svg');
   background-repeat: repeat;
-  background-size: 120px auto;
+  background-size: 140px auto;
+  background-position: 80px 120px;
   opacity: 0.2;
   z-index: -1;
 }
