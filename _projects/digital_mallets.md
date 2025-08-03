@@ -37,6 +37,8 @@ The beauty of this design is its dual functionality. The mallet is capable of:
 1.  **MIDI Output:** Transmitting velocity-sensitive MIDI Note On/Off messages via **MIDI-USB** via the Teensy 3.2. This opens up a world of sonic possibilities, allowing the mallet to control any virtual instrument or external sound module.
 2.  **Internal Synthesis:** Generating immediate audio feedback through the integrated `esp32_basic_synth`. If you are interested, [Marcel Licence Youtube Channel](https://www.youtube.com/channel/UCwrPhahCO1i1n5MPMDT9T_g) is full of great experiments with his libraries.
 
+![Mallet_internals](/assets/img/mallet/mallets_internal.jpg)
+
 ### Beyond the Basics: Future Enhancements
 
 Looking ahead, several enhancements could further refine this digital mallet:
