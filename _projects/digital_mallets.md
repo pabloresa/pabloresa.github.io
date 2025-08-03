@@ -20,7 +20,7 @@ At its synth core, the mallet houses an **ESP32 microcontroller**. This powerful
 
 ### Sensing the Strike: Precision with `HelloDrum-arduino-Library` and Teensy 3.2
 
-To translate a physical strike into a digital signal, the marimba uses a piezo for each plate, which is then sensed by the Teensy. This sensor detects impact and measure strike velocity as **RyoKosaka's `HelloDrum-arduino-Library`** describes.
+To translate a physical strike into a digital signal, the marimba uses a piezo for each plate, which is then sensed by the Teensy. This sensor detects impact and measure strike velocity as [**RyoKosaka's `HelloDrum-arduino-Library`**](https://github.com/RyoKosaka/HelloDrum-arduino-Library) describes.
 
 This library is designed to simplify drum hit detection using accelerometers, providing a robust framework for identifying strikes, distinguishing between different intensities (essential for velocity-sensitive MIDI), and filtering out spurious noise.
 
