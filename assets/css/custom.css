@@ -80,17 +80,17 @@ main img {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 40px auto;
+  background-size: 80px auto;
   opacity: 0.2;
   z-index: -1;
 }
 
 .page-header::before {
-  background-image: url('/assets/svg/forma1.svg');
+  background-image: url('/assets/svg/bg1.svg');
   background-position: 10% 20%;
 }
 
 .page-header::after {
-  background-image: url('/assets/svg/forma2.svg');
+  background-image: url('/assets/svg/bg2.svg');
   background-position: 80% 40%;
 }
