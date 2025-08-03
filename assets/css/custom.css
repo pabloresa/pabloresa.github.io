@@ -87,10 +87,10 @@ main img {
 
 .page-header::before {
   background-image: url('/assets/svg/bg1.svg');
-  background-position: 10% 20%;
+  background-position: 30% 40%;
 }
 
 .page-header::after {
   background-image: url('/assets/svg/bg2.svg');
-  background-position: 80% 40%;
+  background-position: 60% 40%;
 }
