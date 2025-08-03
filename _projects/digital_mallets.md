@@ -26,7 +26,7 @@ This library is designed to simplify drum hit detection using accelerometers, pr
 
 ### Crafting Internal Sound: The `esp32_basic_synth` Integration
 
-While MIDI output offers immense flexibility for connecting to Digital Audio Workstations (DAWs) or external synthesizers, it's interesting to have the ability to produce sound autonomously. This is where **marcel-licence's `esp32_basic_synth` library** comes into play. Although a sampler can be used, in this case I preferred the synth way.
+While MIDI output offers immense flexibility for connecting to Digital Audio Workstations (DAWs) or external synthesizers, it's interesting to have the ability to produce sound autonomously. This is where [**Marcel-Licence's `esp32_basic_synth` library**](https://github.com/marcel-licence/esp32_basic_synth) comes into play. Although a sampler can be used, in this case I preferred the synth way.
 
 This lightweight yet capable synthesis library allows the ESP32 to generate basic audio waveforms and polyphonic sounds directly. By connecting a small speaker or a headphone jack to the ESP32's audio output (perhaps via a simple DAC or I2S amplifier), the mallet can become a completely self-contained instrument. Check the code [here](https://github.com/pabloresa/ArduinoMIDIDevices/blob/main/MarimbaMuxSerialUSB.ino)
 
