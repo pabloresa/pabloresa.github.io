@@ -64,12 +64,10 @@ main img {
 
 .page-header {
   position: relative;
-  background-color: #e5e5f7;
-  opacity: 0.8;
-  background:
-    radial-gradient(circle, transparent 20%, #084449 20%, #084449 80%, transparent 80%, transparent), 
-    radial-gradient(circle, transparent 20%, #084449 20%, #084449 80%, transparent 80%, transparent) 25px 25px, 
-    linear-gradient(#f7d745 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #f7d745 2px, #084449 2px) -1px 0;
-  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    background-color: #084449;
+    opacity: 0.7;
+    background-image:  radial-gradient(#f7d745 2px, transparent 2px), radial-gradient(#f7d745 2px, #084449 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
   z-index: 0;
 }
